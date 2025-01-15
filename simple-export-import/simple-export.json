@@ -1,0 +1,44 @@
+{
+    "environments": [
+        {
+            "url": "https://mztape-sites.crm.dynamics.com",
+            "unmanagedSolutions": [
+                "MztapeSites"
+            ],
+            "managedSolutions": [
+                {
+                    "name": "MztapeBaseLayer",
+                    "parentEnvironment": "https://mztape-base.crm.dynamics.com"
+                },
+                {
+                    "name": "MztapeConnectors",
+                    "parentEnvironment": "https://mztape-apps.crm.dynamics.com"
+                },
+                {
+                    "name": "MztapeApps",
+                    "parentEnvironment": "https://mztape-apps.crm.dynamics.com"
+                }
+            ]
+        },
+        {
+            "url": "https://mztape-base.crm.dynamics.com",
+            "unmanagedSolutions": [
+                "MztapeBaseLayer"
+            ],
+            "managedSolutions": []
+        },
+        {
+            "url": "https://mztape-apps.crm.dynamics.com",
+            "unmanagedSolutions": [
+                "MztapeConnectors",
+                "MztapeApps"
+            ],
+            "managedSolutions": [
+                {
+                    "name": "MztapeBaseLayer",
+                    "parentEnvironment": "https://mztape-base.crm.dynamics.com"
+                }
+            ]
+        }
+    ]
+}

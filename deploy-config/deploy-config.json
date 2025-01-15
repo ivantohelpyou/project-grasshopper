@@ -1,0 +1,10 @@
+{
+    "subscriptionId": "18a697a8-f6df-4f6b-b2f3-714ac1cac1e0",
+    "tenantId": "971cea97-4b1a-4713-942b-190ba914cf64",
+    "location": "westus2",
+    "resourceGroupName": "mztape-hydration",
+    "servicePrincipalName": "sp-mztape-hydration",
+    "keyVaultName": "kv-exports",
+    "storageAccountName": "mztapeexports",
+    "storageContainerName": "exports"
+}

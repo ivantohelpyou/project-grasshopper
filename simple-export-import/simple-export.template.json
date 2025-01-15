@@ -1,0 +1,44 @@
+{
+    "environments": [
+        {
+            "url": "https://<your-environment-url>.crm.dynamics.com",
+            "unmanagedSolutions": [
+                "<your-unmanaged-solution-name>"
+            ],
+            "managedSolutions": [
+                {
+                    "name": "<your-managed-solution-name>",
+                    "parentEnvironment": "https://<your-parent-environment-url>.crm.dynamics.com"
+                },
+                {
+                    "name": "<your-managed-solution-name>",
+                    "parentEnvironment": "https://<your-parent-environment-url>.crm.dynamics.com"
+                },
+                {
+                    "name": "<your-managed-solution-name>",
+                    "parentEnvironment": "https://<your-parent-environment-url>.crm.dynamics.com"
+                }
+            ]
+        },
+        {
+            "url": "https://<your-environment-url>.crm.dynamics.com",
+            "unmanagedSolutions": [
+                "<your-unmanaged-solution-name>"
+            ],
+            "managedSolutions": []
+        },
+        {
+            "url": "https://<your-environment-url>.crm.dynamics.com",
+            "unmanagedSolutions": [
+                "<your-unmanaged-solution-name>",
+                "<your-unmanaged-solution-name>"
+            ],
+            "managedSolutions": [
+                {
+                    "name": "<your-managed-solution-name>",
+                    "parentEnvironment": "https://<your-parent-environment-url>.crm.dynamics.com"
+                }
+            ]
+        }
+    ]
+}

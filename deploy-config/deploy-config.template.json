@@ -1,0 +1,11 @@
+{
+    "subscriptionId": "<your-subscription-id>",
+    "tenantId": "<your-tenant-id>",
+    "location": "<your-location>",
+    "resourceGroupName": "<your-resource-group-name>",
+    "servicePrincipalClientId": "your-service-principal-client-id",
+    "servicePrincipalClientSecret": "your-service-principal-client-secret",
+    "keyVaultName": "<your-key-vault-name>",
+    "storageAccountName": "<your-storage-account-name>",
+    "storageContainerName": "<your-storage-container-name>"
+}
