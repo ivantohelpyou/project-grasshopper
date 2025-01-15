@@ -16,7 +16,7 @@ The simple-export-import process is designed to streamline the export and import
 ### How to Use It
 
 1. **Fill Out and Rename the JSON Template**: Start by filling out the `simple-export.template.json` file with your environment URLs and solution names. Once completed, rename the file to `simple-export.json`.
-2. **Run the Script**: Execute the provided PowerShell scripts to perform the export and import operations based on the configurations specified in the JSON file.
+2. **Run the Script**: Execute the provided PowerShell script `main.ps1` to perform the export and import operations based on the configurations specified in the JSON file. Use `main.ps1 -Action export` or `main.ps1 -Action import` if you just want to do one or the other (by default, the script does both).  
 
 ### What It Does
 
